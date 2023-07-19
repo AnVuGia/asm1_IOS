@@ -15,13 +15,14 @@ struct WelcomeView: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                Text("Welcome to the app")
-                    .font(.title)
+                
+                Text("Welcome")
+                    .font(.system(size: CGFloat(70)))
                     .fontWeight(.bold)
                     .foregroundColor(Color("text-color"))
-                .padding(.bottom, 20)
+                Spacer()
             }
-        }
+                    }
         
    
     }
